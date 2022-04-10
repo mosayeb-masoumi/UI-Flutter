@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ui_nice_test/pages/home_page/home_page.dart';
+import 'package:ui_nice_test/pages/spalsh/spalsh.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         // scaffoldBackgroundColor: Colors.green,
         primarySwatch: Colors.green,
       ),
-      home: HomePage(),
+      home: SplashPage(),
     );
   }
 }
