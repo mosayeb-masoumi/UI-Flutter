@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ui_nice_test/pages/home_page/home_page.dart';
 import 'package:ui_nice_test/pages/more_page/detail_page.dart';
+import 'package:ui_nice_test/pages/shop_page/shop_page.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({Key? key}) : super(key: key);
@@ -30,6 +31,13 @@ class SplashPage extends StatelessWidget {
                 height:2,
               ),
 
+              SizedBox(
+                height:2,
+              ),
+              RaisedButton(child: Text("shop"), onPressed: () {Navigator.push(context, MaterialPageRoute(builder: (context) => const ShopPage()),);}),
+              SizedBox(
+                height:2,
+              ),
 
             ],
           ),
